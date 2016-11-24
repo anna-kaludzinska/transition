@@ -1,0 +1,15 @@
+h1 {
+    color: #080f79;
+    text-align: center;
+    font-size: 30px;
+    margin: 60px auto;
+}
+
+h1:hover {
+    color: #ff7900;
+    font-size: 60px;
+}
+
+h1 {
+    transition: font-size 2s ease-in, color 3s ease-in;
+}
